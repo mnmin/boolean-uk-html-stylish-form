@@ -9,5 +9,91 @@
   </head>
   <body>
 
+    <main class="wrapper">
+
+      <header>
+        <h1>Say Hello!</h1>
+      </header>
+
+      <form>
+       
+        <div>
+          <label for="name"> Your Name
+            <div>
+              <input type="text" id="name" placeholder="Enter your name" required/>
+            </div>
+          </label>
+        </div>
+
+        <hr>
+
+        <div>
+          <label for="email"> Email
+            <div>
+              <input type="email" id="email" placeholder="Enter your email adddress" required/>
+            </div>
+          </label>
+        </div>
+
+        <hr>
+
+        <div>
+          <label for="needed-services">Needed Service
+            
+              <div>
+                <select name="needed-service" id="needed-service" required>
+                  <option value="roaming">Roaming</option>
+                  <option value="call-ab">Call abroad</option>
+                  <option value="mob-broad">Mobile + broadband</option>
+                </select>
+              </div>
+            
+          </label>
+        </div>
+
+        <hr>
+
+        <div>
+          <label for="budget">Budget
+            <div>
+              <select name="needed-services" id="budget" placeholder="Select Budget" required>
+                <option value="5-top">£5 Top-up</option>
+                <option value="10-top">£10 Top-up</option>
+                <option value="15-top">£15 Top-up</option>
+                <option value="20-top">£20 Top-up</option>
+                <option value="25-top">£25 Top-up</option>
+                <option value="30-top">£30 Top-up</option>
+              </select>
+          </div>
+          </label>
+        </div>
+
+        <hr>
+
+        <div>
+          <label for="Message">Message
+            <div >
+              <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message here..."></textarea>
+            </div>
+          </label>
+        </div>
+
+        <hr>
+
+        <div>
+          <button type="submit">
+            <h2>Submit</h2>
+          </button>
+        </div>
+
+      </form>
+
+    </main>
+
+     
+    
+    
+
+
   </body>
 </html>
